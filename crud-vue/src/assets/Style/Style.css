@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Mulish&family=Poppins:wght@600&family=Rubik:wght@400;500;600&display=swap');
+h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.card-content-login{
+    background-color: #F5F6FA !important;
+}
+.btn-login{
+    width: 50%;
+    color: #fff !important;
+}
+.v-application--wrap{
+    min-height: 0;
+}
+.nav-link{
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    color: #4F5665 !important;
+}
+.nav-link.active {
+    font-weight: 400;
+    color: #fff !important;
+}
+.btn-demo{
+    color: #fff !important;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    width: 20vh;
+}
+.btn-demo::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 20px;
+    top: 20px;
+    width: 100%;
+    height: 50%;
+    background: rgba(33, 97, 213, 0.35);
+    filter: blur(27px);
+    border-radius: 100px;
+}
+.main-text{
+    margin-top: 20vh;
+}
+.btn-signUp{
+    color: #2161D5 !important;
+    font-family: 'Rubik', sans-serif;
+}
+.text-card{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+}
+.paragraf-card{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+}
+.active {
+    border: 2px solid #2161D5 !important;
+}
+.question-content{
+    margin-top: 20vh;
+}
+.header-text-card{
+    color: #2161D5 !important;
+}
+.btn-contact{
+    color: #2161D5 !important;
+}
